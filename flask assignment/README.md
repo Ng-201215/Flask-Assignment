@@ -8,7 +8,7 @@ This is a working application for internship assignment.
 
 # Python Libraries used:-
 1. flask, flask-sqlalchemy
-2. flask=security, flask-restful etc.
+2. flask-security, flask-restful etc.
 
 ## Prerequisites
 

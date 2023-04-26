@@ -15,13 +15,18 @@ This is a working application for internship assignment.
 6. DBBrowser for SQLITE Database: for viewing database and observing changes in it.
 
 ## Run the application
-    
-(A) For running Backend (folder backend) :-
+
+(A) For setting the virtual environment :-
+1. first change directory by "cd backend", then create virtualenv "pip install virtualenv".
+2. After this create virtualenv venv by command "virtualenv venv".
+3. Enable the venv by command "source venv/bin/activate" and then install libraries by "pip -r requirements.txt".
+
+(B) For running Backend (folder backend) :-
 1. Open WSL Terminal in vscode , then chande directory to backend by command "cd backend".
 2. Then enable virtual environment by command "source /bin/venv/activate".
-3. Next run the script files local-run.sh.
-4. local-setup.sh is for installing setup on the system.
+3. Next run the script file local-run.sh for running background server.
 
-(B) For running Frontend (folder frontend) :-
-1. Run it by installing live-server by command "npm live-server".
-2. After it go to frontend folder , open terminal and run command 'live-server'.
+(C) For running Frontend (folder frontend) :-
+1. Open WSL Terminal in vscode , then chande directory to backend by command "cd frontend".
+2. Run it by installing live-server by command "npm live-server".
+3. After it run command 'live-server' for running frontend server.

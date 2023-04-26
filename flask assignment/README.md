@@ -6,6 +6,10 @@ This is a working application for internship assignment.
 2. SQLite Database (it is in the database folder in the backend folder containing data)
 3. Vue-JS (for frontend)
 
+# Python Libraries used:-
+1. flask, flask-sqlalchemy
+2. flask=security, flask-restful etc.
+
 ## Prerequisites
 
 1. Python 3.7.9
